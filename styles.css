@@ -16,6 +16,21 @@ h1, h2, h3, h4, h5, h6, span {
   line-height: 1.25;
 }
 
+.btn{
+ background-color: #6030b1;
+color: white;
+padding: 12px;
+border-radius: 30px;
+border: none;
+}
+.btn:hover{
+  cursor: pointer;
+}
+button:active{
+  transform: translateY(1px);
+}
+
+
 h1 {
   font-size: 36px;
 }
@@ -147,22 +162,28 @@ nav {
     display: flex;
     flex-direction: column;
 }
+
+.row{
+  text-align: center;
+}
+
 .about-me__info--container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 500px;
-    margin: 0 auto;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
     
 }
 
 .about-me__picture--mask{
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    overflow: hidden;
+   margin: 0 auto;
+   width: 100px;
+   height: 100px;
+   border-radius: 50px;
+   overflow: hidden;
     box-shadow: 0 8px 16px rgba(0,0,0,0.5);
     margin-bottom: 16px;
     animation: animate-profile-picture 800ms 200ms backwards; 
@@ -184,7 +205,7 @@ nav {
 
 .about-me__picture{
     width: 100%;
-    padding: 16px;
+    padding: 20px;
 }
 
 .about-me__info--para{
@@ -222,7 +243,8 @@ nav {
     flex: 1;
     display: flex;
     align-items: center;
-}
+    padding-top: 36px;
+  }
 
 .about-me__img{
     width: 100%;
@@ -492,4 +514,3 @@ h1{
  }
  
 }
-
